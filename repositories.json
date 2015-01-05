@@ -1,0 +1,50 @@
+{
+  "projects": [
+    {
+      "name":"ITK",
+      "website": "http://www.itk.org",
+      "sdz": "url",
+      "repositories": [
+        {
+          "remote": "upstream",
+          "url": "git://itk.org/ITK.git",
+          "branches": [
+            "master",
+            "release"
+          ]
+        }
+      ]
+    },
+    {
+      "name":"VTK",
+      "website": "http://www.vtk.org",
+      "sdz": "url",
+      "repositories": [
+        {
+          "remote": "upstream",
+          "url": "git://vtk.org/VTK.git",
+          "branches": [
+            "master",
+            "release"
+          ]
+        }
+      ]
+    },
+    {
+      "name":"cmake",
+      "website": "http://www.cmake.org",
+      "sdz": "url",
+      "repositories": [
+        {
+          "remote": "upstream",
+          "url": "git://cmake.org/cmake.git",
+          "branches": [
+            "master",
+            "next",
+            "release"
+          ]
+        }
+      ]
+    }
+  ]
+}
