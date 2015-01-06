@@ -1,9 +1,24 @@
 {
   "projects": [
+   {
+      "name":"gdcm",
+      "website": "http://gdcm.sourceforge.net/",
+      "sdz": "sdz-admin-sources:7990/scm/fdn/gdcm.git",
+      "repositories": [
+        {
+          "remote": "upstream",
+          "url": "git://git.code.sf.net/p/gdcm/gdcm",
+          "branches": [
+            "master",
+            "release"
+          ]
+        }
+      ]
+    },
     {
       "name":"ITK",
       "website": "http://www.itk.org",
-      "sdz": "url",
+      "sdz": "sdz-admin-sources:7990/scm/fdn/itk.git",
       "repositories": [
         {
           "remote": "upstream",
@@ -18,7 +33,7 @@
     {
       "name":"VTK",
       "website": "http://www.vtk.org",
-      "sdz": "url",
+      "sdz": "sdz-admin-sources:7990/scm/fdn/vtk.git",
       "repositories": [
         {
           "remote": "upstream",
@@ -33,7 +48,7 @@
     {
       "name":"cmake",
       "website": "http://www.cmake.org",
-      "sdz": "url",
+      "sdz": "sdz-admin-sources:7990/scm/fdn/cmake.git",
       "repositories": [
         {
           "remote": "upstream",
@@ -42,6 +57,36 @@
             "master",
             "next",
             "release"
+          ]
+        }
+      ]
+    },
+    {
+      "name":"ACVD",
+      "website": "http://www.creatis.insa-lyon.fr/site/en/acvd",
+      "sdz": "sdz-admin-sources:7990/scm/fdn/acvd.git",
+      "repositories": [
+        {
+          "remote": "upstream",
+          "url": "https://github.com/valette/ACVD.git",
+          "branches": [
+            "master",
+            "vtk6"
+          ]
+        }
+      ]
+    },
+    {
+      "name":"vmtk",
+      "website": "http://www.vmtk.org",
+      "sdz": "sdz-admin-sources:7990/scm/fdn/vmtk.git",
+      "repositories": [
+        {
+          "remote": "upstream",
+          "url": "https://github.com/vmtk/vmtk.git",
+          "branches": [
+            "master",
+            "vtk"
           ]
         }
       ]
