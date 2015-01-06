@@ -68,11 +68,10 @@ if __name__ == "__main__":
   projects=json_data["projects"]
 
   os.chdir( output )
-  print( 'number of projects: ' + str( len( projects) ) )
-
+  
   for p in projects:
     name = p["name"]
-    print( '* update ' + name )
+    print( '*** update ' + name )
     repositories=p["repositories"]
 
     if os.path.isdir( os.path.join( output, name ) ):
@@ -82,6 +81,7 @@ if __name__ == "__main__":
           update_project( r["remote"], r["branches"] )
       else:
         print( 'directory exists but not a git repository' )
+        json_file.close()
         sys.exit(1)
     else:
       os.chdir( output )
