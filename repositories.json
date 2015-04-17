@@ -37,7 +37,7 @@
       "repositories": [
         {
           "remote": "upstream",
-          "url": "git://vtk.org/VTK.git",
+          "url": "https://gitlab.kitware.com/vtk/vtk.git"
           "branches": [
             "master",
             "release"
@@ -87,6 +87,21 @@
           "branches": [
             "master",
             "vtk"
+          ]
+        }
+      ]
+    },
+    {
+      "name":"statismo",
+      "website": "http://www.si-cas.com/ncssm/software.htm"
+      "sdz": "sdz-admin-sources:7990/scm/fdn/statismo.git",
+       "repositories": [
+        {
+          "remote": "upstream",
+          "url": "https://github.com/statismo/statismo.git",
+          "branches": [
+            "master",
+            "develop"
           ]
         }
       ]
